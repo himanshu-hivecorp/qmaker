@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4F46E5" />
+    <meta name="description" content="Qmaker - Make Perfect Question Papers in Minutes | Create professional MCQ papers with ease" />
+    <meta name="author" content="Himanshu - https://github.com/himanshu-hivecorp" />
+    <title>Qmaker - Make Perfect Question Papers in Minutes</title>
+    <script>
+      // Apply saved theme immediately to prevent flash
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        const savedFontSize = localStorage.getItem('fontSize');
+        
+        if (savedTheme === 'dark') {
+          document.documentElement.classList.add('dark');
+          document.body.classList.add('dark');
+        }
+        
+        if (savedFontSize) {
+          const fontSize = savedFontSize === 'small' ? '14px' : 
+                          savedFontSize === 'large' ? '18px' : '16px';
+          document.documentElement.style.fontSize = fontSize;
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
