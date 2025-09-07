@@ -4,7 +4,7 @@
   "description": "Make Perfect Question Papers in Minutes - A modern MCQ paper generator with multi-language support",
   "author": "Himanshu <https://github.com/himanshu-hivecorp>",
   "license": "MIT",
-  "homepage": "https://github.com/himanshu-hivecorp/qmaker",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/himanshu-hivecorp/qmaker.git"
